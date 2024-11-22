@@ -1,0 +1,70 @@
+{
+  "env": {
+    "source": {
+      "services": {
+        "bff": {
+          "base_url": "https://bff.dev.k8s.bhasai.samagra.io/"
+        },
+        "dataset": {
+          "base_url": "https://dataset-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "document": {
+          "base_url": "https://document-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "uci_apis": {
+          "base_url": "https://uci-apis.dev.k8s.bhasai.samagra.io/"
+        },
+        "auth_service": {
+          "base_url": "https://auth-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "nodehub": {
+          "base_url": "https://nodehub.dev.k8s.bhasai.samagra.io/"
+        }
+      },
+      "botId": "1234567890",
+      "orgId": "1234567890",
+      "email": "test@test.com",
+      "password": "test123"
+    },
+    "target": {
+      "services": {
+        "bff": {
+          "base_url": "https://bff.dev.k8s.bhasai.samagra.io/"
+        },
+        "dataset": {
+          "base_url": "https://dataset-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "document": {
+          "base_url": "https://document-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "uci_apis": {
+          "base_url": "https://uci-apis.dev.k8s.bhasai.samagra.io/"
+        },
+        "auth_service": {
+          "base_url": "https://auth-service.dev.k8s.bhasai.samagra.io/"
+        },
+        "nodehub": {
+          "base_url": "https://nodehub.dev.k8s.bhasai.samagra.io/"
+        }
+      },
+      "botId": "1234567890",
+      "orgId": "1234567890",
+      "email": "test@test.com",
+      "password": "test123"
+    }
+  },
+  "ops": {
+    "data": {
+      "complete": true
+    },
+    "recipe": {
+      "complete": true
+    },
+    "secrets": {
+      "complete": true
+    },
+    "composite_nodes": {
+      "complete": true
+    }
+  }
+}

@@ -13,6 +13,8 @@ export class NodeHubService {
   }
 
   public async getWatchdedNodes(token: string) {
+    console.log(chalk.blue('Getting watched nodes...'));
+    console.log(chalk.blue(token));
     try {
       const response = await this.httpService.get(`/node/watched`, {
         headers: {

@@ -13,10 +13,10 @@ export class AuthService {
   }
 
 
-  public async login(username: string, password: string) {
+  public async login(email: string, password: string) {
     try {
       const response = await this.httpService.post('/org/login', {
-        username,
+        email,
         password,
       });
 
